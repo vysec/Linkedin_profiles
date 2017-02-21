@@ -1,3 +1,5 @@
+Originally Based off of wpentester's Linkedin_profiles work. As his code no longer works for the new LinkedIn UI this will be the new repository. wpentester has reverted his repo so that it contains code for the old UI for people who do not have the new UI yet.
+
 This script uses selenium to scrape linkedin employee details from a specified company.  If the script isn't working, you can always browse to the desired company's employee page and paste in the link on line 69 like this: "employees_page = url"
 
 The trick is to run the script with the "--function get" flag first.  When the browser has opened and run through it's tests, and the files have been successfully saved on disk, then re-run the script using the "--function create" flag.  
